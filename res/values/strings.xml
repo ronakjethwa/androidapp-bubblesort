@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Maven Quickstart</string>
-    <string name="hello">Hello hw1!</string>
+    <string name="app_name">Bubble Sort Algorithm</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="Enter">Enter 10-12 Space seperate unique integers between 1 and 100:</string>
+    <string name="sort">Sort the Integers</string>
+    <string name="title_activity_result">Result</string>
 
 </resources>
