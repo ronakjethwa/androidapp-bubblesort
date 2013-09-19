@@ -4,7 +4,7 @@
     <string name="app_name">Bubble Sort Algorithm</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
-    <string name="Enter">Enter 10-12 Space seperate unique integers between 1 and 100:</string>
+    <string name="Enter">Enter 10-12 space-separated unique integers between 1 and 100:</string>
     <string name="sort">Sort the Integers</string>
     <string name="title_activity_result">Result</string>
 
