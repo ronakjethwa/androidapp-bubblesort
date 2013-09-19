@@ -38,6 +38,22 @@
                         <platform>16</platform>
                     </sdk>
                 </configuration>
+                <executions>
+                    <execution>
+	                    <id>undeploy</id>
+	                    <phase>clean</phase>
+	                    <goals>
+	                        <goal>undeploy</goal>
+	                    </goals>    
+                    </execution>
+                    <execution>
+                        <id>deploy</id>
+                        <phase>install</phase>
+                        <goals>
+                            <goal>deploy</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
