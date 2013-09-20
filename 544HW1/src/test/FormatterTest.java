@@ -30,45 +30,45 @@ public class FormatterTest {
 		Assert.assertArrayEquals(expected, actual);
 	}
 	
-	/**
-	 * Empty string cannot be parsed
-	 */
-	@Test
-	public void testEmptyString() {
-	
-		try {
-			formatter.format("");
-		}
-		catch(Exception e) {
-			Assert.assertEquals(Formatter.EMPTY_STRING_ERROR, e.getMessage());
-		}
-	}
-	
-	/**
-	 * Input value does not parse to number; only numbers accepted
-	 */
-	@Test
-	public void testNotNumbers() {
-		
-		try {
-			formatter.format("a b c d");
-		}
-		catch(Exception e) {
-			Assert.assertEquals(Formatter.PARSE_ERROR, e.getMessage());
-		}
-	}
-	
-	/**
-	 * Tests non-space delimiter; method accepts only space
-	 */
-	@Test
-	public void testInvalidSeparator() {
-				
-		try {
-			formatter.format("1-2-3-4");
-		}
-		catch(Exception e) {
-			Assert.assertEquals(Formatter.PARSE_ERROR, e.getMessage());
-		}
-	}
+//	/**
+//	 * Empty string cannot be parsed
+//	 */
+//	@Test
+//	public void testEmptyString() {
+//	
+//		try {
+//			formatter.format("");
+//		}
+//		catch(Exception e) {
+//			Assert.assertEquals(Formatter.EMPTY_STRING_ERROR, e.getMessage());
+//		}
+//	}
+//	
+//	/**
+//	 * Input value does not parse to number; only numbers accepted
+//	 */
+//	@Test
+//	public void testNotNumbers() {
+//		
+//		try {
+//			formatter.format("a b c d");
+//		}
+//		catch(Exception e) {
+//			Assert.assertEquals(Formatter.PARSE_ERROR, e.getMessage());
+//		}
+//	}
+//	
+//	/**
+//	 * Tests non-space delimiter; method accepts only space
+//	 */
+//	@Test
+//	public void testInvalidSeparator() {
+//				
+//		try {
+//			formatter.format("1-2-3-4");
+//		}
+//		catch(Exception e) {
+//			Assert.assertEquals(Formatter.PARSE_ERROR, e.getMessage());
+//		}
+//	}
 }
